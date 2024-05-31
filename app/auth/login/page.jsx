@@ -74,6 +74,10 @@ const Login = () => {
             )}
           </div>
           <button type="submit">Anmelden</button>
+          <p>
+            Haben Sie bereits ein Konto? <a href="/auth/register">Erstellen</a>{" "}
+            {/* Link zur Anmeldeseite */}
+          </p>
         </form>
       </div>
       <ToastContainer />
